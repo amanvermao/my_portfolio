@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.main{
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+   
+   
+
+}
+
+.m-left{
+    flex: 33rem;
+   
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.m-btn{
+    width: 20rem;
+    height: 5rem;
+    border-radius: 5px;
+    margin-top: 7rem;
+    margin-right: 73rem;
+    margin-left: 5rem;
+}
+.m-btn>p{
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.arrow_btn{
+    width: 13rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    position: relative;
+    top: -32px;
+    border-radius: 1rem;
+}
+.arrow_c{
+    border-radius: 100%;
+    border: 2px solid;
+    width: 26px;
+    height:26px ;
+   
+}
+.big-text{
+    font-weight:bolder;
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    width: 37rem;
+    margin-top: 2rem;
+    margin: 1px;
+    padding: 20px;
+    margin-left: 3rem;
+    text-align: left;
+   
+
+}
+
+.small-text{
+    color: rgb(102, 94, 110);
+    width: 50rem;
+    margin-top: -1rem;
+    text-transform: capitalize;
+    padding: 2px;
+    margin-left: 4rem;
+    text-align: left;
+    font-size: large;
+
+}
+
+.my-logo{
+    width: 35rem;
+    height: 32rem;
+
+  
+}
+.aman_img{
+    width: 27rem;
+    height: 27rem;
+    border-radius:20rem;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+}
+.m-right{
+    flex: 2rem;
+    position: absolute;
+    top: 12rem;
+    left: 59rem;
+    background: transparent;
+}
+
+.head-text{
+
+    width: 50rem;
+    height: 10rem;
+   
+}

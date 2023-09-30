@@ -1,0 +1,78 @@
+
+.header{
+    color: white;
+
+    height: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+     
+}
+
+
+.logo_img{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 4rem;
+
+}
+.nav{
+    display: flex;
+    color: white;
+    position: relative;
+   left: 22rem;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav>ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    position: relative;
+  right: 10rem;
+ 
+}
+.social_links .icons{
+ width: 3rem;
+ height: 7rem;
+ margin: 1rem;
+ 
+}
+.social_links{
+    position: relative;
+    left: 5rem;
+
+   
+}
+.btn{
+    width: 8rem;
+    height: 3rem;
+    background: transparent;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid;
+    cursor: pointer;   
+    
+}
+.contact_btn{
+    margin-right: 3rem;
+}
+.social_links svg{
+    color: white;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+
+
+

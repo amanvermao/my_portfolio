@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.big-skill-contaner{
+background-color:rgba(0,0,2,255);
+height: 35rem;
+width: 80rem;
+border-radius: 5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 9rem;
+flex-direction: column;
+gap: 2rem;
+
+
+}
+.big-skill-contaner h1{
+   position: relative;
+   top: 1rem;
+    font-size: 80px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.big-skill-contaner p{ 
+    color: rgb(102, 94, 110);
+    width: 50rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.skills-main{
+    display: flex;
+    gap: 9rem;
+}
+
+
+.skill{
+   width: 100px; 
+   height: 40vh;
+}
+.outer{
+ height: 160px;
+ width: 160px;
+ border-radius: 50%;
+ box-shadow: 6px 6px 10px -1px rgba(0, 0, 0,0.15),
+             -6px -6px 10px -1px rgba(255, 255, 255, 0.7)  ;
+ justify-content: center;
+ display: flex;
+align-items: center;
+
+ 
+ 
+
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0,0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255,0.7),
+    -0.5px -0.5px 0px  rgba(255, 255, 255,1),
+    0.5px 0.5px 0px  rgba(0, 0, 0,15),
+     0px 12px 10px -10px rgba(0, 0, 0,0.5);
+    
+}
+#number{
+  font-weight: 20rem;
+  font-size: x-large;
+  color: #f8f8f8;  
+}
+.skill-1{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+
+
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 85;
+    }
+}
+
+.skill-2{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 80;
+    }
+}
+
+.skill-3{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+
+
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 150;
+    }
+}
+
+.skill-4{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim4 2s linear forwards;
+}
+
+@keyframes anim4{
+    100%{
+        stroke-dashoffset: 140;
+    }
+}
+.svg-2{
+   position: relative;
+ bottom: 10rem;
+}
+
+.skill-list ul{
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 11rem; 
+   list-style: none;
+   font-size: x-large;
+ position: relative;
+ bottom: 7.5rem;
+ left: 2.5rem;
+   }
+  
+

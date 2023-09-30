@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+   
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,101 @@
+
+.scl_img img{
+    position: relative;
+    width: 55rem;
+    height: 30rem;
+    top: 15rem;
+    right: 20rem;
+    border-radius: 5rem;
+}
+.scl-text{
+    font-size: 40px;
+    position: relative;
+    top: 17rem;
+    right: 22rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.date{
+    position: relative;
+    right: 37rem;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.city{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clg-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    right: 42rem;
+    position: relative;
+    top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clg-img{
+    width: 55rem;
+    height: 30rem;
+    border-radius: 5rem;
+    position: relative;
+    right: 20rem;
+}
+.clg-name{
+    font-size: 50px;
+    color: white;
+    right: 20rem;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.clg-date{
+    font-size:20px ;
+   color: white;
+   position: relative;
+   right: 40rem;
+   font-family: 'Times New Roman', Times, serif;
+}
+.clg-city{
+    font-size:20px ;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+}
+.email{
+    background-color: white;
+    width: 35rem;
+    height: 10rem;
+    border-radius: 2rem;
+    font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: center;
+   align-self: center;
+   position: relative;
+   right: 35rem;
+   top: 10rem;  
+  font-family: 'Times New Roman', Times, serif;
+}
+.email-text{
+    font-size: 40px;  
+}
+.phone{
+
+    background-color: white;
+    width: 35rem;
+    height: 10rem;
+    border-radius: 2rem;
+    font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: center;
+   align-self: center;
+   font-family: 'Times New Roman', Times, serif;
+   position: relative;
+   left: 15rem;
+}
+

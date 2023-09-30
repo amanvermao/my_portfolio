@@ -1,0 +1,76 @@
+
+.Contact{
+ background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+
+.left-c{
+   
+    flex:20rem;
+   gap: 2rem;
+}
+.Contact-img img
+{
+margin-top: 2rem;
+height: 90vh;
+
+
+}
+.right-c{
+    flex: 30rem;
+    position: relative;
+   
+}
+.form{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns:330px 330px;
+   
+    row-gap: 10px;
+}
+.inputs input{
+    width: 20rem; 
+    height: 4rem;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    color: white;
+   display: flex;
+    text-align: center;
+    outline: none;
+}
+.inputs textarea{
+     background: transparent;
+     border: 1px solid grey;
+     border-radius: 1rem;
+     width: 41rem;
+     height: 20rem;
+     color: white;
+     outline: none;
+    text-align: center;
+    justify-content: center;
+        
+}
+.s-btn{
+    border-radius: 1rem;
+   margin-top: 1rem;
+  position: relative;
+  right: 18rem;
+  border: 1px solid gray;
+  background-color: white;
+  color: rgb(61, 59, 59);
+  
+}
+.s-btn p{
+    
+    font-size: large;
+  
+}
+
